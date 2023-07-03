@@ -26,140 +26,45 @@
     margin: 0;
 }
 
+/*header ul{*/
+/*    display: flex;*/
+/*    align-items: start;*/
+/*}*/
+/*header ul li{*/
+/*    margin: 9px;*/
+/*}*/
+/*header ul li a{*/
+/*    color: #1C1B1B;*/
+/*    font-size: 16px;*/
+/*    font-family: Roboto;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: 26.4px;*/
+/*    text-decoration: none;*/
+/*}*/
 
-.main_banner{
-    padding: 90px 0px;
-    background: #F0EFEB;
+/*.icon{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
 
-}
-.main_banner .container{
-    max-width: 1064px;
-    margin: auto;
-}
-
-.content{
-    max-width: 544px;
-}
-.main_banner h1{
-    font-family: 'robotobold';
-    font-size: 60px;
-    line-height: 70px;
-    color: #000000;
-    padding-bottom: 42px;
-}
-.main_banner p{
-    font-family: 'robotoregular';
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-    margin-bottom: 26px;
-}
-.foto{
-    max-width: 599px;
-    position: absolute;
-    width: 100%;
-    height: 521px;
-    left: 781px;
-    top: 9px;
-}
-.main_banner a{
-    background: #000000;
-    border-radius: 100px;
-    font-family: 'robotoregular';
-    font-size: 17px;
-    line-height: 20px;
-    /* identical to box height */
-    color: #FFFFFF;
-    padding: 8px 23px;
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-}
-
-.secondary_banner {
-    padding-bottom: 90px;
-}
-.secondary_banner .container{
-    padding-bottom: 90px;
-    max-width: 1064px;
-    margin: auto;
-}
-.secondary_banner .d-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.secondary_banner .d-flex a{
-    max-width: 309px;
-    display: inline-block;
-}
+/*}*/
+/*.icon a{*/
+/*    margin-right: 15px;*/
+/*}*/
 
 
 
-.secondary_banner h2{
-    font-family: 'robotobold';
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    color: #000000;
-    align-items: center;
-    padding-top: 60px;
-    padding-bottom: 35px;
-}
-.secondary_banner p{
-    font-family: 'robotoregular';
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #000000;
-    padding-bottom: 47px;
-}
-.secondary_banner .sellers{
-    padding-top: 33px;
-    padding-bottom: 51px;
-}
-.secondary_banner .thalby{
-    font-family: 'robotobold';
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
-    color: #000000;
-    padding-top: 27px;
-    padding-bottom: 17px;
-}
-.secondary_banner .price{
-    font-family: 'robotoregular';
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
-    color: #000000;
-    padding-bottom: 4px;
-}
-.secondary_banner .buy{
-    font-family: 'robotobold';
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
-    text-decoration-line: underline;
-    color: #000000;
-    padding-bottom: 157px;
-}
-.owl-dots{
-    display: flex;
-    justify-content: space-between
-}
-.secondary_banner .owl-dots .owl-dot{
-    background-color: #D6D6D6;
-    width: 10px;
-    height: 10px;
-    border-radius:10px;
-    position: relative;
-    left: -510px;
-    top: 240px;
-    margin: 2px;
-}
-.secondary_banner .owl-dots .owl-dot.active{
-    background-color: #869791;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 

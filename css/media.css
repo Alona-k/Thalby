@@ -1,0 +1,69 @@
+
+
+
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 768px){
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 428px){
+
+
+    .about_sellers h2{
+
+    }
+    .about_sellers p{
+
+    }
+    .about_sellers a{
+
+    }
+    .sellers_about h2{
+
+    }
+    .sellers_about p{
+
+    }
+    .sellers_about a{
+
+    }
+    /*.article_text{*/
+    /*    text-align: left;*/
+    /*}*/
+    .interviews{
+        padding-top: 0;
+    }
+    .features{
+
+    }
+    footer .container{
+        padding-left: 24px;
+        padding-right: 24px;
+        flex-direction: column;
+    }
+    footer
+    footer .logo2{
+
+    }
+
+    footer .ft_icon{
+
+    }
+    footer .ft_right{
+
+    }
+    footer .ft_right ul{
+
+    }
+    footer .ft_right ul li{
+
+    }
+}
