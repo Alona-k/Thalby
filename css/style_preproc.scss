@@ -24,6 +24,36 @@ header{
     display: flex;
     justify-content: space-between;
   }
+  nav{
+    display: flex;
+    align-items: center;
+    ul{
+      display: flex;
+      align-items: start;
+      list-style: none;
+      margin-bottom: 0;
+      li{
+        margin-right: 9px;
+        a{
+          color: #1C1B1B;
+          font-size: 16px;
+          font-family: $main_font;
+          line-height: 26.4px;
+          text-decoration: none;
+        }
+      }
+    }
+    .support{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .hover-target{
+        margin-right: 15px;
+        height: 40px;
+        width: 100px;
+      }
+    }
+  }
   .logo{
     display: flex;
     align-items: center;
@@ -36,6 +66,7 @@ header{
       margin-left: 0;
     }
   }
+
   @include max-screen(768px){
     .nav-but-wrap{
       display: inline-block;
@@ -85,6 +116,7 @@ header{
       padding: 0;
       margin: 0;
       z-index: 2;
+      display: block;
     }
     .nav__list-item {
       position: relative;
@@ -156,13 +188,13 @@ header{
       width: 100%;
     }
     .support{
-      /*position: absolute;*/
-      /*right: 10px;*/
-      /*bottom: 10px;*/
-      /*padding: 10px;*/
+      //position: absolute;
+      //right: 10px;
+      //bottom: 10px;
+      //padding: 10px;
       display: flex;
       justify-content: center;
-      align-items: baseline
+      align-items: baseline;
     }
     a{
       margin: 0 20px;
@@ -505,16 +537,13 @@ header{
 .interviews{
   padding-top: 52px;
   padding-bottom: 132px;
-  background: #F0EFEB;
+  background-image: linear-gradient(to bottom, $white_color 50%, #F0EFEB 50%);
   @include max-screen(428px){
     padding-top: 0;
   }
   .container{
     max-width: 1064px;
     margin: auto;
-  }
-  .half-colored {
-    background-image: linear-gradient(to bottom, $white_color 50%, #F0EFEB 50%);
   }
   h2{
     color: $black_color;
@@ -716,15 +745,15 @@ footer{
   }
   .about{
     padding-bottom: 24px;
-    @include max-screen(768px){
-      padding-left: 20px;
-    }
+    //@include max-screen(768px){
+    //  padding-left: 20px;
+    //}
   }
   .contacts{
     padding-bottom: 24px;
-    @include max-screen(768px){
-      padding-left: 20px;
-    }
+    //@include max-screen(768px){
+    //  padding-left: 20px;
+    //}
   }
   .ft_container{
     max-width: 1064px;
